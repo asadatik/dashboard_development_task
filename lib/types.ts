@@ -29,6 +29,8 @@ export interface Analytics {
 }
 
 export interface Product {
+  name: ReactNode;
+  name: any;
   id: string;
   price: number;
   sales: number;
