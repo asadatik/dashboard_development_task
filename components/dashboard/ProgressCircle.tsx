@@ -39,9 +39,9 @@ export function ProgressCircle({ percentage = 41 }: ProgressCircleProps) {
         </svg>
         
         {/* Center text */}
-        <div className="absolute flex flex-col items-center">
-          <span className="text-4xl font-bold text-emerald-600">{percentage}%</span>
-          <span className="text-sm text-slate-500 mt-1">Complete</span>
+        <div className="absolute  flex flex-col items-center">
+          <span className="text-4xl  font-bold text-emerald-600">{percentage}%</span>
+
         </div>
       </div>
 

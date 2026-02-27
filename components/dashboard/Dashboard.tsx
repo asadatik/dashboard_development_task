@@ -9,6 +9,7 @@ import { StatsCards } from './StatsCards';
 import { DonutChart } from './DonutChart';
 import { ProjectsTable } from './ProjectsTable';
 import { ProgressCircle } from './ProgressCircle';
+import { TimeTracker } from '../TimeTracker';
 
 export function Dashboard() {
   const [data, setData] = useState<DashboardResponse | null>(null);
@@ -83,6 +84,11 @@ export function Dashboard() {
         <div>
           <ProjectsTable products={data.products} />
         </div>
+
+
+              {/* Time Tracker */}
+              <TimeTracker />
+
       </main>
     </div>
   );
